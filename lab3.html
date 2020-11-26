@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="application">
+<head>
+    <meta charset="utf-8">
+    <title>Lab-3</title>
+</head>
+<body>
+    <main ng-controller="AppController">
+        <p>Введіть продукти через кому: <input type="text" ng-model="product"></p>
+        <button  ng-click="calculation()">Чи не забагато?</button>
+        <p>{{ result }}</p>
+    </main>
+
+
+    <script src="angular.min.js"></script>
+    <script src="codes.js"></script>
+</body>
+</html>
